@@ -1,22 +1,22 @@
 class Costcrew < Formula
   desc "The AI coding price database, plus what you spend on it"
   homepage "https://github.com/Arch087146/costcrew"
-  version "0.4.3"
+  version "0.4.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Arch087146/costcrew/releases/download/v0.4.3/costcrew-macos-aarch64.tar.gz"
-      sha256 "B83E56C536317713C0F656004E6BF91D226D821D055561AC57B4B174F3B193A0"
+      url "https://github.com/Arch087146/costcrew/releases/download/v0.4.4/costcrew-macos-aarch64.tar.gz"
+      sha256 "0291FE2362E2DB8D6D06BD0EAE7BAB5A7B8259BACB78D5E9027643E330FAAA66"
     else
-      url "https://github.com/Arch087146/costcrew/releases/download/v0.4.3/costcrew-macos-x86_64.tar.gz"
-      sha256 "34EBCFB3CFA30E0915B5329AF621A02D00C3DEE24E543BCFF2D14412F1A0AC35"
+      url "https://github.com/Arch087146/costcrew/releases/download/v0.4.4/costcrew-macos-x86_64.tar.gz"
+      sha256 "78578AC588F62F6F5D1DF2E245904EFE498C88BB9EB364811BD9484AF81A7ECB"
     end
   end
 
   on_linux do
-    url "https://github.com/Arch087146/costcrew/releases/download/v0.4.3/costcrew-linux-x86_64.tar.gz"
-    sha256 "BBF296D3E423446FC2774E97CFD35252258FFBCEE082EF6BCA83F58B39B97CCC"
+    url "https://github.com/Arch087146/costcrew/releases/download/v0.4.4/costcrew-linux-x86_64.tar.gz"
+    sha256 "4582917F7A1E18A5087ECE6F7EF522483EC85E9D87424E5E16B398B5FC3468BB"
   end
 
   def install
